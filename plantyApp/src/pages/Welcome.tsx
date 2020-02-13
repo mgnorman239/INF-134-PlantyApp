@@ -1,4 +1,4 @@
-import React from 'react';
+import React ,{ Component }from 'react';
 import { IonContent, IonHeader, IonPage, IonInput, IonItem, IonButton, IonIcon, IonToolbar, IonTitle, IonButtons, IonBackButton, IonText } from '@ionic/react';
 import { mail, lockClosed, arrowBack} from 'ionicons/icons';
 import "./Welcome.css"
@@ -14,6 +14,11 @@ const Welcome: React.FC = () => {
                 </IonButtons>
             </IonToolbar>
         </IonHeader>
+        <IonContent>
+        <IonItem class="center-plant">
+                    <img src={require("./images/Planty.jpg")} alt="Planty the Self-Care Plant"></img>
+                </IonItem>
+        </IonContent>
         </IonPage>
     )
 }

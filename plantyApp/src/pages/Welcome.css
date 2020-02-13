@@ -1,3 +1,11 @@
 ion-content{
     --ion-background-color:  #ffffcc  ;
   }
+
+.center-plant{
+    position: absolute;
+    width: 120px;
+    height: 150px;
+    left: 85px;
+    top: 90px;
+}
