@@ -1,14 +1,14 @@
-import { IonContent, IonHeader, IonPage, IonInput, IonItem, IonButton, IonIcon, IonToolbar, IonTitle, IonButtons, IonBackButton, IonText } from '@ionic/react';
-import { mail, lockClosed, arrowBack} from 'ionicons/icons';
 import React from 'react';
-import './LogIn.css';
+import { IonPage, IonHeader, IonToolbar, IonTitle, IonButtons, IonBackButton, IonContent, IonItem, IonIcon, IonInput, IonButton, IonText } from '@ionic/react';
+import { mail, lockClosed, arrowBack, person } from 'ionicons/icons';
+import './SignUp.css'
 
-const LogIn: React.FC = () => {
-    return(
+const SignUp: React.FC = () => {
+    return (
         <IonPage>
             <IonHeader>
                 <IonToolbar>
-                    <IonTitle>Log In</IonTitle>
+                    <IonTitle>Sign Up</IonTitle>
                     <IonButtons slot="start">
                         <IonBackButton icon={arrowBack} defaultHref="/home"></IonBackButton>
                     </IonButtons>
@@ -16,7 +16,7 @@ const LogIn: React.FC = () => {
             </IonHeader>
 
             <IonContent>
-                <IonText class="welcome-text">Welcome Back!</IonText>
+                <IonText class="welcome-text">Join for Free!</IonText>
                 <IonItem class="center-logo">
                     <img src="Planty.jpg" alt="Planty the Self-Care Plant"></img>
                 </IonItem>
@@ -28,11 +28,15 @@ const LogIn: React.FC = () => {
                 <IonIcon icon={lockClosed} class="input-line-icon"></IonIcon>
                     <IonInput type="text" placeholder="Password" class="input-line-text"></IonInput>
                 </IonItem>
-                <IonButton class="confirm-button" color="primary">Log In</IonButton>
+                <IonItem class="input-line input-line-display-name">
+                    <IonIcon icon={person} class="input-line-icon"></IonIcon>
+                    <IonInput type="text" placeholder="Display Name" class="input-line-text"></IonInput>
+                </IonItem>
+                <IonButton class="confirm-button" color="primary">Get Started</IonButton>
         
             </IonContent>
         </IonPage>
     )
 };
 
-export default LogIn;
+export default SignUp

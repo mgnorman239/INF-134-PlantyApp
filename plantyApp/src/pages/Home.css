@@ -1,3 +1,85 @@
-ion-content ion-toolbar {
-  --background: translucent;
+.welcome-text {
+  position: absolute;
+  left: 70px;
+  top: 100px;
+
+  font-size: 24px;
+}
+
+.welcome-image {
+  position: absolute;
+  left: 50px;
+  top: 150px;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+}
+
+.sign-up-button {
+  position: absolute;
+  width: 157px;
+  height: 41px;
+  left: 70px;
+  top: 350px;
+
+  background: #8388C8;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.log-in-button {
+  position: absolute;
+  width: 157px;
+  height: 41px;
+  left: 70px;
+  top: 290px;
+
+  background: #8388C8;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.forgot-info-box {
+  position: absolute;
+  width: 157px;
+  height: 41px;
+  left: 100px;
+  top: 420px;
+}
+
+.home-page-button {
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+
+  background: #8388C8;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.button-text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+}
+
+.forgot-info-text {
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+  
+  font-family: Ropa Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 15px;
+  
+  text-decoration-line: underline;
+  
+  color: #6891E0;
 }
