@@ -1,3 +1,6 @@
+ion-content{
+  --ion-background-color:  #ffffcc  ;
+}
 
 /* Input icons */
 .input-line-icon {
@@ -84,4 +87,6 @@
     left: 80px;
     top: 20px;
   }
+
+  
   
