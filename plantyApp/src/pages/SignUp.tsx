@@ -18,7 +18,7 @@ const SignUp: React.FC = () => {
             <IonContent>
                 <IonText class="welcome-text">Join for Free!</IonText>
                 <IonItem class="center-logo">
-                    <img src="Planty.jpg" alt="Planty the Self-Care Plant"></img>
+                    <img src={require("./images/Planty.jpg")} alt="Planty the Self-Care Plant"></img>
                 </IonItem>
                 <IonItem class="input-line input-line-email">
                     <IonIcon icon={mail} class="input-line-icon"></IonIcon>
