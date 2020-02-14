@@ -20,19 +20,19 @@ const SignUp: React.FC = () => {
                 <IonItem class="center-logo">
                     <img src="Planty.jpg" alt="Planty the Self-Care Plant"></img>
                 </IonItem>
-                    <IonItem class="input-line input-line-email">
-                <IonIcon icon={mail} class="input-line-icon"></IonIcon>
+                <IonItem class="input-line input-line-email">
+                    <IonIcon icon={mail} class="input-line-icon"></IonIcon>
                     <IonInput type="text" placeholder="Email" class="input-line-text"></IonInput>
                 </IonItem>
-                    <IonItem class="input-line input-line-password">
-                <IonIcon icon={lockClosed} class="input-line-icon"></IonIcon>
+                <IonItem class="input-line input-line-password">
+                    <IonIcon icon={lockClosed} class="input-line-icon"></IonIcon>
                     <IonInput type="text" placeholder="Password" class="input-line-text"></IonInput>
                 </IonItem>
                 <IonItem class="input-line input-line-display-name">
                     <IonIcon icon={person} class="input-line-icon"></IonIcon>
                     <IonInput type="text" placeholder="Display Name" class="input-line-text"></IonInput>
                 </IonItem>
-                <IonButton class="confirm-button" color="primary">Get Started</IonButton>
+                <IonButton class="confirm-button" color="primary" href='/tutorial1'>Get Started</IonButton>
         
             </IonContent>
         </IonPage>

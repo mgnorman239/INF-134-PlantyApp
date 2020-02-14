@@ -12,17 +12,10 @@ const Home: React.FC = () => {
       </IonHeader>
 
       <IonContent>
-        <IonText class="welcome-text">Welcome</IonText>
-        {/*}
-        <IonItem class="welcome-image">
-          <img src="Planty.jpg" alt="Planty the Self-Care Plant"></img>
-        </IonItem>
-  */}
+        <IonText class="home-page-text">Welcome to Planty!</IonText>
         <IonButton class="log-in-button button-text" href="/login">Log In</IonButton>
           <IonButton class="sign-up-button button-text" href="/signup">Sign Up</IonButton>
-        <IonItem class="forgot-info-box">
           <IonText class="forgot-info-text">Forgot Info</IonText>
-        </IonItem>
         
       </IonContent>
 

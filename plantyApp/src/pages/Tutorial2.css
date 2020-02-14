@@ -1,0 +1,38 @@
+.tutorial-text {
+    position: absolute;
+    width: 80%;
+    height: 10%;
+    left: 10%;
+    top: 20%;
+
+    font-family: Ropa Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 39px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.tutorial-progress-bar {
+    top: 40%;
+    width: 60%;
+    left: 20%;
+}
+
+.back-arrow {
+    position: absolute;
+    left: 5%;
+    top: 60%;
+    width: 15%;
+    height: 10%;
+}
+
+.forward-arrow {
+    position: absolute;
+    left: 80%;
+    top: 60%;
+    width: 15%;
+    height: 10%;
+}

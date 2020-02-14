@@ -17,15 +17,12 @@ const LogIn: React.FC = () => {
 
             <IonContent>
                 <IonText class="welcome-text">Welcome Back!</IonText>
-                <IonItem class="center-logo">
-                    <img src="Planty.jpg" alt="Planty the Self-Care Plant"></img>
-                </IonItem>
-                    <IonItem class="input-line input-line-email">
-                <IonIcon icon={mail} class="input-line-icon"></IonIcon>
+                <IonItem class="input-line input-line-email">
+                    <IonIcon icon={mail} class="input-line-icon"></IonIcon>
                     <IonInput type="text" placeholder="Email" class="input-line-text"></IonInput>
                 </IonItem>
-                    <IonItem class="input-line input-line-password">
-                <IonIcon icon={lockClosed} class="input-line-icon"></IonIcon>
+                <IonItem class="input-line input-line-password">
+                    <IonIcon icon={lockClosed} class="input-line-icon"></IonIcon>
                     <IonInput type="text" placeholder="Password" class="input-line-text"></IonInput>
                 </IonItem>
                 <IonButton class="confirm-button" color="primary">Log In</IonButton>
