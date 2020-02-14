@@ -1,0 +1,16 @@
+.welcome-text {
+    position: absolute;
+    width: 323px;
+    height: 54px;
+    left: 26px;
+    top: 234px;
+
+    font-family: Ropa Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 39px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
