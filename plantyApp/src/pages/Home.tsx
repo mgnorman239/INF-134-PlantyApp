@@ -6,7 +6,7 @@ const Home: React.FC = () => {
   return (
     <IonPage>
       <IonHeader>
-      <IonToolbar>
+      <IonToolbar class="toolbar">
           <IonTitle>Planty App</IonTitle>
       </IonToolbar>
       </IonHeader>

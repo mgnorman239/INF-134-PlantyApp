@@ -31,6 +31,7 @@ import './theme/variables.css';
 
 /* Global CSS */
 import './global.css';
+import PickActivity from './pages/PickActivity';
 
 const App: React.FC = () => (
   <IonApp>
@@ -43,8 +44,8 @@ const App: React.FC = () => (
         <Route path="/signup" component={SignUp} exact={true} />
         <Route path="/tutorial1" component={Tutorial1} exact={true} />
         <Route path="/tutorial2" component={Tutorial2} exact={true} />
-
-        <Route path = '/welcome' component={Welcome} exact={true}>
+        <Route path = '/welcome' component={Welcome} exact={true}/>
+        <Route path = '/PickActivity' component ={PickActivity} exact = {true}>   
         
         </Route>
       </IonRouterOutlet>

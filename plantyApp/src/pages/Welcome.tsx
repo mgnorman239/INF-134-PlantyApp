@@ -1,11 +1,14 @@
 import React ,{ Component }from 'react';
-import { IonContent, IonHeader, IonPage, IonInput, IonItem, IonButton, IonIcon, IonToolbar, IonTitle, IonButtons, IonBackButton, IonText } from '@ionic/react';
+import {IonSlides, IonSlide ,IonListHeader,IonLabel,IonRadio, IonContent, IonHeader, IonPage, IonInput, IonItem, IonButton, IonIcon, IonToolbar, IonTitle, IonButtons, IonBackButton, IonText, IonSelect, IonRadioGroup } from '@ionic/react';
 import { mail, lockClosed, arrowBack, construct} from 'ionicons/icons';
 import "./Welcome.css"
-import { SSL_OP_CIPHER_SERVER_PREFERENCE } from 'constants';
 
-const Welcome: React.FC=()=> {
-
+const slideOpts = {
+    initialSlide: 1,
+    speed: 400
+  };
+class Welcome extends Component{
+    render(){
     return (
         <IonPage>
         <IonHeader>
@@ -17,17 +20,31 @@ const Welcome: React.FC=()=> {
             </IonToolbar>
         </IonHeader>
         <IonContent>
-                    
-                <IonItem class="center-plant">
-                    <img src={require("./images/Planty.jpg")} alt="Planty the Self-Care Plant"></img>
-                </IonItem>
-        <IonButton class = "previous" color= "#8388C8"> Prev</IonButton>
-        <IonButton class = "Actuvity-button" color="#8388C8">Activity</IonButton>
-        <IonButton class = "next" color= "#8388C8"> next</IonButton>
+        <IonSlides pager={true} options={slideOpts}>
+        <IonSlide>
+        <IonItem class="planty">
+          <img src={require("./images/Planty.jpg")} alt="Planty the Self-Care Plant"></img>
+        </IonItem>
+        </IonSlide>
+        <IonSlide>
+        <IonItem class="welcome-image">
+          <img src={require("./images/sunflower.jpg")} alt="Planty the Self-Care Plant"></img>
+        </IonItem>
+        </IonSlide>
+        <IonSlide>
+        <IonItem class="welcome-image">
+          <img src={require("./images/flowers.jpg")} alt="Planty the Self-Care Plant"></img>
+        </IonItem>
+        </IonSlide>
+        </IonSlides>
+        
+        <IonButton class = "Actuvity-button" color="#8388C8" href = "/PickActivity">Activity</IonButton>
+        
         </IonContent>
         </IonPage>
 
     )
+    }
     
 }
 
