@@ -3,3 +3,15 @@
     height: 150px;
     color: #000000
 }
+.grid_menu{
+    position: absolute;
+    top: 20px;
+    left: 30px;
+    height: 150%;
+    
+}
+
+.input-line-icon{
+    width: 80px;
+}
+

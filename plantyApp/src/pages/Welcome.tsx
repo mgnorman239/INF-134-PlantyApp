@@ -20,25 +20,25 @@ class Welcome extends Component{
             </IonToolbar>
         </IonHeader>
         <IonContent>
-        <IonSlides pager={true} options={slideOpts}>
+        <IonSlides class="welcome-image" pager={true} options={slideOpts}>
         <IonSlide>
-        <IonItem class="planty">
+        <IonItem>
           <img src={require("./images/Planty.jpg")} alt="Planty the Self-Care Plant"></img>
         </IonItem>
         </IonSlide>
         <IonSlide>
-        <IonItem class="welcome-image">
+        <IonItem >
           <img src={require("./images/sunflower.jpg")} alt="Planty the Self-Care Plant"></img>
         </IonItem>
         </IonSlide>
         <IonSlide>
-        <IonItem class="welcome-image">
+        <IonItem>
           <img src={require("./images/flowers.jpg")} alt="Planty the Self-Care Plant"></img>
         </IonItem>
         </IonSlide>
         </IonSlides>
         
-        <IonButton class = "Actuvity-button" color="#8388C8" href = "/PickActivity">Activity</IonButton>
+        <IonButton class = "Activity-button" color="#8388C8" href = "/PickActivity">Activity</IonButton>
         
         </IonContent>
         </IonPage>

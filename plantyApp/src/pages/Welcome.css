@@ -11,20 +11,13 @@
     left:20px;
 }
 
-.Actuvity-button{
+.Activity-button{
     position: absolute;
     width: 100px;
     height: 41px;
-    left: 70px;
+    left: 120px;
     top: 290px;
     background: #1A988A;;
-}
-.previous{
-    position: absolute;
-    width: 50px;
-    left: 0px;
-    top: 290px;
-    background: #1A988A;
 }
 
 .next{
@@ -34,7 +27,10 @@
     top: 290px;
     background: #1A988A;
 }
-.left{
-    position: absolute;
-    left:0px;
+.welcome-image{
+    position: relative;
+    top: 50px;
+    left: 0px;
+    height: 250px;
+    width: 200px;
 }
