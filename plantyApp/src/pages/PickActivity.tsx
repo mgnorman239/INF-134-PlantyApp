@@ -3,7 +3,9 @@ import React ,{ Component }from 'react';
 import {IonSlides, IonSlide ,IonListHeader,IonLabel,IonRadio, IonContent, IonHeader, IonPage, IonInput, IonItem, IonButton, IonIcon, IonToolbar, IonTitle, IonButtons, IonBackButton, IonText, IonSelect, IonRadioGroup, IonGrid, IonRow, IonCol } from '@ionic/react';
 import { mail, lockClosed, arrowBack, construct} from 'ionicons/icons';
 import { render } from '@testing-library/react';
-// import "./Welcome.css"
+import mobiscroll from '@mobiscroll/react';
+import '@mobiscroll/react/dist/css/mobiscroll.min.css';
+import "./PickActivity.css";
 
 const slideOpts = {
     initialSlide: 0,
@@ -12,7 +14,7 @@ const slideOpts = {
   };
 
 class  PickActivity extends React.Component{
-
+    slides = document.querySelector('.activityPick')
     grid_nextPage=()=>{
         
     }
@@ -31,14 +33,16 @@ class  PickActivity extends React.Component{
             </IonToolbar>
         </IonHeader>
         <IonContent>
-        <IonSlides class="activityPick" pager={false} options={slideOpts}>
+        <IonSlides class="activityPick" pager={true} options={slideOpts}>
             <IonSlide>
             <IonGrid class="grid_menu">
                 {/* grid be wider have to use br element */}
                 {/* size is for the*/}
                 <IonRow class="grid_row">
                     <IonCol>
+                        <IonButton href="/Activity2">
                             <IonIcon icon={mail} class="input-line-icon" ></IonIcon>
+                            </IonButton>
                         </IonCol>
                         <IonCol>
                             <IonIcon icon={mail} class="input-line-icon" ></IonIcon>
