@@ -1,0 +1,60 @@
+/* 
+Navigation bar stylesheet:
+Make changes to the top navigation bar here.
+*/
+
+.topnav {
+    overflow: auto;
+    background-color: #1A988A;
+}
+
+/* <A> tags inside the topnav class. These are the clickable options (About, Our Team, etc.) located on the rightside of the navigation bar */
+.topnav a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 18px;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-size: 18px;
+    float: right;
+  }
+
+/* The highlight color and text color when you hover over one of the right-side options in the navigation bar */
+.topnav a:hover {
+    background-color: #06D6A0;
+    color: white;
+    text-decoration: none;
+}
+
+/* The style responsible for displaying which menu item is 'active' or selected */
+.topnav a.active {
+    background-color: #06D6A0;
+    color: white;
+    text-decoration: none;
+}
+
+/* <a> tag with class name = "planty"... mainly used for the logo and app name on the left side of the navigation bar. */
+.topnav a.planty {
+    float: left;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 16px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    font-size: 22px;
+}
+
+/* <a> tage with class name = "planty"... make the hover color different than the other <a> tags*/
+.topnav a.planty:hover {
+    background-color: #1A988A;
+    color: white;
+    text-decoration: none;
+}
+
+/* Navigation bar icons */
+.icon {
+    color: white;
+    padding-left: 8px;
+    padding-right: 8px;
+}
