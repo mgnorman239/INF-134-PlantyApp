@@ -3,8 +3,6 @@ import React ,{ Component }from 'react';
 import {IonSlides, IonSlide ,IonListHeader,IonLabel,IonRadio, IonContent, IonHeader, IonPage, IonInput, IonItem, IonButton, IonIcon, IonToolbar, IonTitle, IonButtons, IonBackButton, IonText, IonSelect, IonRadioGroup, IonGrid, IonRow, IonCol } from '@ionic/react';
 import { mail, lockClosed, arrowBack, construct} from 'ionicons/icons';
 import { render } from '@testing-library/react';
-import mobiscroll from '@mobiscroll/react';
-import '@mobiscroll/react/dist/css/mobiscroll.min.css';
 import "./PickActivity.css";
 
 const slideOpts = {
