@@ -1,0 +1,15 @@
+.top-banner {
+    height: 50vh;
+    max-height: 100vh;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, .4), transparent, rgba(0, 0, 0, .2)), url("../assets/succulent.jfif");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    padding-top: 16vh;
+    font-size: 64px;
+    font-family: 'Satisfy', cursive;
+}
+

@@ -1,9 +1,32 @@
 <html>
 <head>
+    <!-- Tab title -->
+    <title>Planty App</title>
+
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="assets/Favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="assets/Favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="assets/Favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="assets/Favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="assets/Favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="assets/Favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="assets/Favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="assets/Favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/Favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="assets/Favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/Favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="assets/Favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/Favicon/favicon-16x16.png">
+    <link rel="manifest" href="assets/Favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="assets/Favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
     <!-- Import other stylesheets - Bootstrap must be first -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/home-html.css">
 
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
@@ -15,18 +38,34 @@
 <body>
 
 <body>
-    <!-- Navigation bar -->
-    <div class="topnav">
-        <a class="planty" href="home.html">
-            <span class="fas fa-spa icon"></span>
-            <span>Planty</span>
-        </a>
-        <a href="html-pages/faq.html">FAQ</a>
-        <a href="html-pages/support.html">Support Us</a>
-        <a href="html-pages/team.html">Our Team</a>
-        <a href="html-pages/about.html">About</a>
+
+<header class="masthead top-banner">
+    <div class="container h-100 darken-overlay">
+        <div class="row">
+            <div class="col-sm-offset-6">
+                <h1 class="banner-text">Planty App</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-offset-6">
+                <h2 class="banner-subtext">Practice self-care, grow with your plant pal.</h2>
+            </div>
+        </div>
+        <div class="row buttons">
+            <div class="col-sm-offset-6">
+                <button type="button" class="btn btn-lg banner-button">Watch Video</button>
+                <button type="button" class="btn btn-lg banner-button" onclick="navigateToHome()">Learn More</button>
+            </div>
+        </div>
     </div>
+</header>
 
 </body>
 
 </html>
+
+<script>
+    function navigateToHome() {
+        location.href = "html-pages/about.html"
+    }
+</script>
