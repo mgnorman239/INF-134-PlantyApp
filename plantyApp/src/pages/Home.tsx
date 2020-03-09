@@ -11,17 +11,17 @@ const Home: React.FC = () => {
       </IonToolbar>
       </IonHeader>
 
-      <IonContent>
-        <IonText class="home-page-text">Welcome to Planty!</IonText>
-        <IonText class="welcome-text">Welcome</IonText>
-        
-        <IonItem class="welcome-image">
-          <img src={require("./images/Planty.jpg")} alt="Planty the Self-Care Plant"></img>
-        </IonItem>
- 
-        <IonButton class="log-in-button button-text" href="/login">Log In</IonButton>
-          <IonButton class="sign-up-button button-text" href="/signup">Sign Up</IonButton>
+      <IonContent class="home-content">
+      
+        <IonItem class="item">
+          <img id="pic" src={require("./images/Planty.jpg")} alt=""></img>
+          <IonButton color="#8388C8"  class="log-in-button" href="/login">Log In</IonButton>
+          <IonButton color="#8388C8" class="sign-up-button" href="/signup">Sign Up</IonButton>
           <IonText class="forgot-info-text">Forgot Info</IonText>
+        </IonItem>
+        
+ 
+          
         
       </IonContent>
 

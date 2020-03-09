@@ -1,35 +1,23 @@
 
 ion-content{
-  --ion-background-color:  #95f2d9  ;
+  --ion-background-color:  white  ;
 }
 
 .toolbar{
-  background: #1A988A;
-}
-.welcome-text {
-  position: absolute;
-  left: 70px;
-  top: 100px;
-
-  font-size: 24px;
+  background: #8388C8;
 }
 
-.welcome-image {
-  position: absolute;
-  width: 120px;
-  height: 150px;
-  left: 85px;
-  top: 90px;
-}
+
+
 
 .sign-up-button {
   position: absolute;
   width: 50%;
   height: 10%;
   left: 25%;
-  top: 70%;
+  top: 22%;
 
-  background: #1A988A;
+  background: #8388C8;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
@@ -38,9 +26,9 @@ ion-content{
   width: 50%;
   height: 10%;
   left: 25%;
-  top: 57.5%;
+  top: 10%;
 
-  background: #1A988A;
+  background: #8388C8;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
@@ -55,7 +43,7 @@ ion-content{
   position: absolute;
   left: 30%;
   right: 0%;
-  top: 85%;
+  top: 34%;
   bottom: 0%;
   width: 40%;
   
@@ -68,5 +56,5 @@ ion-content{
   text-decoration-line: underline;
   text-align: center;
   
-  color: #1A988A;
+  color:blue;
 }

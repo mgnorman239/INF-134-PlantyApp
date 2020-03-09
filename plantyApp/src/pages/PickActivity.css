@@ -1,21 +1,19 @@
-/* .sample{
-    width: 120px;
-    height: 150px;
-    color: #000000
+.activityPick{
+    position: relative;
+    width: 80%;
+    height: 85%;
+
 }
-.grid_menu{
-    position: absolute;
-    top: 20px;
-    left: 30px;
-    height: 150%;
-    
+.F-1{
+    width: 90%;
 }
-
-.input-line-icon{
-    color: #000000;
-    align-self: center
-} */
-
-
+.slideDown{
+    background-color: white;
+    color: blue
+}
+.slideUp{
+    background-color: white;
+    color: blue
+}
 
 

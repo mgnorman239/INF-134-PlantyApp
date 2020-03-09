@@ -16,7 +16,7 @@ const LogIn: React.FC = () => {
                 </IonToolbar>
             </IonHeader>
 
-            <IonContent>
+            <IonContent class="login">
                 <IonText class="welcome-text">Welcome Back!</IonText>
                 <IonItem class="center-logo">
                     <img src={require("./images/Planty.jpg")} alt="Planty the Self-Care Plant"></img>
@@ -29,7 +29,7 @@ const LogIn: React.FC = () => {
                     <IonIcon icon={lockClosed} class="input-line-icon"></IonIcon>
                     <IonInput type="text" placeholder="Password" class="input-line-text"></IonInput>
                 </IonItem>
-                <IonButton class="confirm-button" color="primary" href = "/welcome">Log In</IonButton>
+                <IonButton class="confirm-button" color="#8388C8" href = "/welcome">Log In</IonButton>
         
             </IonContent>
         </IonPage>

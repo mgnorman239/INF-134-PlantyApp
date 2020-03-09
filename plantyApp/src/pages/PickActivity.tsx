@@ -12,14 +12,14 @@ const slideOpts = {
   };
 
 class  PickActivity extends React.Component{
-    slides = document.querySelector('.activityPick')
-    grid_nextPage=()=>{
-        
-    }
+    
+    
+    
     grid_lastPage=()=>{
 
     }
 
+    
     render(){
         return(<IonPage>
             <IonHeader>
@@ -36,37 +36,38 @@ class  PickActivity extends React.Component{
             <IonGrid class="grid_menu">
                 {/* grid be wider have to use br element */}
                 {/* size is for the*/}
-                <IonRow class="grid_row">
-                    <IonCol>
-                        <IonButton href="/Activity2">
-                            <IonIcon icon={mail} class="input-line-icon" ></IonIcon>
-                            </IonButton>
+                <IonRow class="F-1">
+                    <IonCol class="firstL">
+                        <img src={require("./images/spray.svg")}></img>
                         </IonCol>
+                        space
                         <IonCol>
-                            <IonIcon icon={mail} class="input-line-icon" ></IonIcon>
+                            <img src={require("./images/cough.svg")}></img>
                         </IonCol>
                     </IonRow>
+              
                     <br></br>
-                    <br></br>
-                    <IonRow class="grid_row">
-                    <IonCol>
-                            <IonIcon icon={mail} class="input-line-icon"></IonIcon>
+                    <IonRow class="F-1">
+                    <IonCol class="firstL">
+                        <img src={require("./images/spray.svg")}></img>
                         </IonCol>
+                        space
                         <IonCol>
-                            <IonIcon icon={mail} class="input-line-icon"></IonIcon>
+                            <img src={require("./images/cough.svg")}></img>
                         </IonCol>
                     </IonRow>
+               
                     <br></br>
-                    <br></br>
-                    <IonRow>
-                    <IonCol>
-                            <IonIcon icon={mail} class="input-line-icon"></IonIcon>
+                    <IonRow class="F-1">
+                    <IonCol class="firstL">
+                        <img src={require("./images/spray.svg")}></img>
                         </IonCol>
+                        space
                         <IonCol>
-                            <IonIcon icon={mail} class="input-line-icon"></IonIcon>
+                            <img src={require("./images/cough.svg")}></img>
                         </IonCol>
                     </IonRow>
-                    <br></br>
+                  
                     <br></br>
                     <IonRow >
                     <IonCol>
@@ -76,14 +77,11 @@ class  PickActivity extends React.Component{
                             <IonIcon icon={mail} class="input-line-icon" color="black"></IonIcon>
                         </IonCol>
                     </IonRow>
-                    <br></br>
-                    <br></br>
                     <IonRow>
-                    
-                        <IonButton class="next_page" onClick={this.grid_nextPage}>
-                            <IonIcon icon={arrowDownOutline}></IonIcon>
-                            next page
-                        </IonButton>
+                        <IonItem class="slideDown">
+                            <IonIcon color="blue" icon={arrowDownOutline}></IonIcon>
+                            slide down to see more activities</IonItem>
+                        
                     </IonRow>
             </IonGrid>
             </IonSlide>
@@ -94,42 +92,43 @@ class  PickActivity extends React.Component{
                 {/* size is for the*/}
                 <IonRow>
                     
-                        <IonButton class="next_page" onClick={this.grid_lastPage}>
-                            <IonIcon icon={arrowUpOutline}></IonIcon>
-                            lst page
-                        </IonButton>
+                 <IonItem class="slideUp">
+                            <IonIcon color="blue" icon={arrowUpOutline}></IonIcon>
+                            slide up to see more activities</IonItem>
                 </IonRow>
 
-                <IonRow class="grid_row">
-                    <IonCol>
-                            <IonIcon icon={mail} class="input-line-icon" ></IonIcon>
+                <IonRow class="F-1">
+                    <IonCol class="firstL">
+                        <img src={require("./images/spray.svg")}></img>
                         </IonCol>
+                        space
                         <IonCol>
-                            <IonIcon icon={mail} class="input-line-icon" ></IonIcon>
-                        </IonCol>
-                        
-                </IonRow>
-                    <br></br>
-                    <br></br>
-                    <IonRow class="grid_row">
-                    <IonCol>
-                            <IonIcon icon={mail} class="input-line-icon"></IonIcon>
-                        </IonCol>
-                        <IonCol>
-                            <IonIcon icon={mail} class="input-line-icon"></IonIcon>
+                            <img src={require("./images/cough.svg")}></img>
                         </IonCol>
                     </IonRow>
+              
                     <br></br>
-                    <br></br>
-                    <IonRow>
-                    <IonCol>
-                            <IonIcon icon={mail} class="input-line-icon"></IonIcon>
+                    <IonRow class="F-1">
+                    <IonCol class="firstL">
+                        <img src={require("./images/spray.svg")}></img>
                         </IonCol>
+                        space
                         <IonCol>
-                            <IonIcon icon={mail} class="input-line-icon"></IonIcon>
+                            <img src={require("./images/cough.svg")}></img>
                         </IonCol>
                     </IonRow>
+               
                     <br></br>
+                    <IonRow class="F-1">
+                    <IonCol class="firstL">
+                        <img src={require("./images/spray.svg")}></img>
+                        </IonCol>
+                        space
+                        <IonCol>
+                            <img src={require("./images/cough.svg")}></img>
+                        </IonCol>
+                    </IonRow>
+                  
                     <br></br>
                     <IonRow >
                     <IonCol>
@@ -139,9 +138,7 @@ class  PickActivity extends React.Component{
                             <IonIcon icon={mail} class="input-line-icon" color="black"></IonIcon>
                         </IonCol>
                     </IonRow>
-                    <br></br>
-                    <br></br>
-                    
+                    <IonRow></IonRow>
             </IonGrid>
             </IonSlide>
             </IonSlides>

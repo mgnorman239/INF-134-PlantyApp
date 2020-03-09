@@ -1,5 +1,6 @@
 
 
+
 /* Input icons */
 .input-line-icon {
     position: absolute;
@@ -47,18 +48,16 @@
   /* Placeholder text in input boxes */
   .input-line-text {
     position: absolute;
-    height: 15px;
-    width: 100px;
-    top: 7px;
-    left: 40px;
-  
-    font-family: Ropa Sans;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 15px;
-    
-    color: #B5B5B5;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: #FFFFFF;
+border: 1px solid #B5B5B5;
+box-sizing: border-box;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 20px;
   }
   
   /* Center logo */
@@ -77,7 +76,7 @@
     left: 80px;
     top: 300px;
     font-size: 14px;
-    color: white;
+    background-color: #8388C8;
   }
 
   .welcome-text {
