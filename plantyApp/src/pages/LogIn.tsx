@@ -21,7 +21,7 @@ const LogIn: React.FC = () => {
                 <IonItem class="center-logo">
                     <img src={require("./images/Planty.jpg")} alt="Planty the Self-Care Plant"></img>
                 </IonItem>
-                    <IonItem class="input-line input-line-email">
+                <IonItem class="input-line input-line-email">
                 <IonIcon icon={mail} class="input-line-icon"></IonIcon>
                     <IonInput type="text" placeholder="Email" class="input-line-text"></IonInput>
                 </IonItem>

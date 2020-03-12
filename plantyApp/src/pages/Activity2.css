@@ -1,5 +1,23 @@
-.activityPicture{
+.actText{
     position: relative;
-    left: 100px;
-    width: 64px;
+    top: 5%;
+    left:30%;
+    color:black;
+    font-size: xx-large;
+}
+#logo1{
+    position: relative;
+    top:15%;
+    width:50%;
+    left:25%;
+}
+.timer{
+    position: absolute;
+    top:60%;
+    left:40%;
+}
+.startButton{
+    position: absolute;
+    left:35%;
+    top:85%;
 }

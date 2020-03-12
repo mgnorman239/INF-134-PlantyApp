@@ -1,9 +1,11 @@
 import { camera, trash, close, arrowDownOutline, arrowUpOutline } from 'ionicons/icons';
-import React ,{ Component }from 'react';
+import React ,{ Component, Props }from 'react';
+import { Redirect,withRouter } from 'react-router';
 import {IonSlides, IonSlide ,IonListHeader,IonLabel,IonRadio, IonContent, IonHeader, IonPage, IonInput, IonItem, IonButton, IonIcon, IonToolbar, IonTitle, IonButtons, IonBackButton, IonText, IonSelect, IonRadioGroup, IonGrid, IonRow, IonCol } from '@ionic/react';
 import { mail, lockClosed, arrowBack, construct} from 'ionicons/icons';
 import { render } from '@testing-library/react';
 import "./PickActivity.css";
+
 
 const slideOpts = {
     initialSlide: 0,
@@ -11,12 +13,18 @@ const slideOpts = {
     direction:'vertical'
   };
 
+var state={
+    path:null    
+}
+
+
 class  PickActivity extends React.Component{
     
     
     
-    grid_lastPage=()=>{
-
+    grid_lastPage=(path:string)=>{
+        this.setState({path:"./images/spray.svg"})
+        window.location.href='/Activity2';
     }
 
     
@@ -38,7 +46,7 @@ class  PickActivity extends React.Component{
                 {/* size is for the*/}
                 <IonRow class="F-1">
                     <IonCol class="firstL">
-                        <img src={require("./images/spray.svg")}></img>
+                        <img  onClick={()=>this.grid_lastPage("./images/spray.svg")} src={require("./images/spray.svg")} ></img>
                         </IonCol>
                         space
                         <IonCol>
@@ -78,9 +86,9 @@ class  PickActivity extends React.Component{
                         </IonCol>
                     </IonRow>
                     <IonRow>
-                        <IonItem class="slideDown">
+                        <IonLabel class="slideDown">
                             <IonIcon color="blue" icon={arrowDownOutline}></IonIcon>
-                            slide down to see more activities</IonItem>
+                            slide down to see more activities</IonLabel>
                         
                     </IonRow>
             </IonGrid>
@@ -92,9 +100,9 @@ class  PickActivity extends React.Component{
                 {/* size is for the*/}
                 <IonRow>
                     
-                 <IonItem class="slideUp">
+                 <IonLabel class="slideUp">
                             <IonIcon color="blue" icon={arrowUpOutline}></IonIcon>
-                            slide up to see more activities</IonItem>
+                            slide up to see more activities</IonLabel>
                 </IonRow>
 
                 <IonRow class="F-1">
@@ -148,3 +156,5 @@ class  PickActivity extends React.Component{
     }
 }
 export default PickActivity
+
+
