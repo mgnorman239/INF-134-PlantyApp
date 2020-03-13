@@ -22,19 +22,19 @@ class Welcome extends Component{
         <IonContent>
         <IonSlides class="welcome-image" pager={true} options={slideOpts}>
         <IonSlide>
-        <IonItem>
+        <IonLabel>
           <img src={require("./images/Planty.jpg")} alt="Planty the Self-Care Plant"></img>
-        </IonItem>
+        </IonLabel>
         </IonSlide>
         <IonSlide>
-        <IonItem >
+        <IonLabel >
           <img src={require("./images/sunflower.jpg")} alt="Planty the Self-Care Plant"></img>
-        </IonItem>
+        </IonLabel>
         </IonSlide>
         <IonSlide>
-        <IonItem>
+        <IonLabel>
           <img src={require("./images/flowers.jpg")} alt="Planty the Self-Care Plant"></img>
-        </IonItem>
+        </IonLabel>
         </IonSlide>
         </IonSlides>
         

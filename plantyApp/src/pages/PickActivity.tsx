@@ -79,10 +79,8 @@ class  PickActivity extends React.Component{
                     <br></br>
                     <IonRow >
                     <IonCol>
-                            <IonIcon icon={mail} class="input-line-icon"></IonIcon>
                         </IonCol>
                         <IonCol>
-                            <IonIcon icon={mail} class="input-line-icon" color="black"></IonIcon>
                         </IonCol>
                     </IonRow>
                     <IonRow>
@@ -140,10 +138,8 @@ class  PickActivity extends React.Component{
                     <br></br>
                     <IonRow >
                     <IonCol>
-                            <IonIcon icon={mail} class="input-line-icon"></IonIcon>
                         </IonCol>
                         <IonCol>
-                            <IonIcon icon={mail} class="input-line-icon" color="black"></IonIcon>
                         </IonCol>
                     </IonRow>
                     <IonRow></IonRow>

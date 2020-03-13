@@ -17,7 +17,7 @@ const customDayShortNames = [
 
 
 export const Activity2: React.FC = () => {
-const [selectedDate, setSelectedDate] = useState<string>('2012-12-15T13:47:20.789');
+const [selectedDate, setSelectedDate] = useState<string>('2020-03-12T00:00:00.000');
 
     
     
@@ -37,9 +37,10 @@ const [selectedDate, setSelectedDate] = useState<string>('2012-12-15T13:47:20.78
                 <IonLabel class="logo">
                 <img id="logo1" src={require("./images/spray.svg")} ></img>
                 </IonLabel>
-                <IonItem  class="timer">
-                <IonDatetime displayFormat="HH:mm:ss" value={selectedDate} onIonChange={e => setSelectedDate(e.detail.value!)}></IonDatetime>
-                </IonItem>
+                <IonLabel class="timer">
+                    hours and minutes
+                <IonDatetime class="time" displayFormat="HH:mm" value={selectedDate} onIonChange={e => setSelectedDate(e.detail.value!)}></IonDatetime>
+                </IonLabel>
 
             <IonButton class="startButton">
                 Click to Start

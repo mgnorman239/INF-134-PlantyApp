@@ -1,4 +1,4 @@
-import { IonContent, IonHeader, IonPage, IonInput, IonItem, IonButton, IonIcon, IonToolbar, IonTitle, IonButtons, IonBackButton, IonText } from '@ionic/react';
+import { IonContent, IonHeader, IonPage, IonInput, IonItem, IonButton, IonIcon, IonToolbar, IonTitle, IonButtons, IonBackButton, IonText, IonLabel } from '@ionic/react';
 import { mail, lockClosed, arrowBack} from 'ionicons/icons';
 import React from 'react';
 import './LogIn.css';
@@ -21,14 +21,14 @@ const LogIn: React.FC = () => {
                 <IonItem class="center-logo">
                     <img src={require("./images/Planty.jpg")} alt="Planty the Self-Care Plant"></img>
                 </IonItem>
-                <IonItem class="input-line input-line-email">
+                <IonLabel class="input-line input-line-email">
                 <IonIcon icon={mail} class="input-line-icon"></IonIcon>
                     <IonInput type="text" placeholder="Email" class="input-line-text"></IonInput>
-                </IonItem>
-                <IonItem class="input-line input-line-password">
+                </IonLabel>
+                <IonLabel class="input-line input-line-password">
                     <IonIcon icon={lockClosed} class="input-line-icon"></IonIcon>
                     <IonInput type="text" placeholder="Password" class="input-line-text"></IonInput>
-                </IonItem>
+                </IonLabel>
                 <IonButton class="confirm-button" color="#8388C8" href = "/welcome">Log In</IonButton>
         
             </IonContent>

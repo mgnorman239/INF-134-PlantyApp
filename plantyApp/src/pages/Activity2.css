@@ -12,10 +12,16 @@
     left:25%;
 }
 .timer{
+    background-color: white;
     position: absolute;
     top:60%;
     left:40%;
 }
+.time{
+   
+    color: black;
+}
+
 .startButton{
     position: absolute;
     left:35%;

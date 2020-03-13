@@ -8,6 +8,8 @@
     height: 20px;
     left: 13px;
     top: 3px;
+    color: blue
+
   }
   
   
@@ -20,12 +22,12 @@
     border-radius: 20px;
   }
   
-  .input-line-email {
-    position: absolute;
+  .input-line input-line-email {
+    position: relative;
     width: 200px;
     height: 30px;
     left: 50px;
-    top: 220px;
+    top: 300px;
   }
   
   .input-line-password {
@@ -33,7 +35,7 @@
     width: 200px;
     height: 30px;
     left: 50px;
-    top: 270px;
+    top: 300px;
   }
   
   .input-line-display-name {
@@ -62,11 +64,11 @@ border-radius: 20px;
   
   /* Center logo */
   .center-logo {
-    position: absolute;
+    position: relative;
     width: 120px;
     height: 150px;
     left: 85px;
-    top: 90px;
+    top: 5%;
   }
   
   .confirm-button {
