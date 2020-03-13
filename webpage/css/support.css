@@ -1,6 +1,6 @@
 input[type=text], select {
     width: 100%;
-    padding: 12px 20px;
+    padding: 12px;
     display: inline-block;
     border: 1px solid #ccc;
     background-color: #f8f8f8;
@@ -8,12 +8,6 @@ input[type=text], select {
     box-sizing: border-box;
   }
 
-  .interest-form {
-      margin: 3vh;
-      padding: auto;
-      margin: auto;
-      
-  }
 
   .label-text {
       color: #267326;
@@ -36,17 +30,19 @@ input[type=text], select {
 
   form {
       margin-bottom: none;
+      padding: none;
   }
 
   .join-button {
-      float: right;
+      float: left;
   }
 
   .undraw {
-      width: 100%;
+      width: 90%;
       height: 50%;
       display: block;
       margin: 2vh;
       margin: auto;
       padding: auto;
+      margin-left: 8vh;
   }
