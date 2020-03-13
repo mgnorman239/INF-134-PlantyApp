@@ -54,9 +54,7 @@
 <header class="masthead top-banner">
     <div class="container">
         <div class="row">
-            <div class="col-sm-offset-6 col-sm-6">
-                <h1 class="mission-statement">Building healthy, mindful habits to combat stress.</h1>
-            </div>
+            <h1 class="banner-text">Building healthy, mindful habits to combat stress.</h1>
         </div>
     </div>
 </header>
@@ -78,36 +76,38 @@
 
     <!-- Interest form -->
     <div class="row card-body">
-        <div class="col-sm-8">
-            <div class="row card-body">
-                <div class="col-sm-6">
+        <form>
+            <div class="col-sm-8">
+                <div class="row card-body">
                     <!-- First Name -->
-                    <form>
-                        <label class="label-text" for="name">First Name</label>
+                    <div class="col-sm-6">
+                        <label class="label-text" for="fname">First Name</label>
                         <input type="text" id="interest-fname" name="fname" placeholder="First Name"> 
-                    </form>
-                </div>
-                <div class="col-sm-6">
-                    <form>
-                        <label class="label-text" for="email">Last Name</label>
+                    </div>
+                    <!-- Last Name -->
+                    <div class="col-sm-6">
+                        <label class="label-text" for="lname">Last Name</label>
                         <input type="text" id="interest-lname" name="lname" placeholder="Last Name">
-                    </form>
+                    </div>
+                </div>
+
+                <!-- Comments -->
+                <div class="row card-body">
+                    <div class="col-sm-12">
+                            <label class="label-text" for="comments">Comments</label>
+                            <textarea id="comments" name="comments" placeholder="Enter comments, not required"></textarea>
+                        </div>
+                </div> 
+
+                <!-- Submit Button -->
+                <div class="row card-body">
+                    <div class="col-sm-12">
+                        <button type="button" class="btn btn-lg join-button" onclick="">Submit</button>
+                    </div>
                 </div>
             </div>
-            <div class="row card-body">
-                <div class="col-sm-12">
-                    <form>
-                        <label class="label-text" for="comments">Comments</label>
-                        <textarea id="comments" name="comments" placeholder="Enter comments, not required"></textarea>
-                    </form>
-                </div>
-            </div> 
-            <div class="row card-body">
-                <div class="col-sm-12">
-                    <button type="button" class="btn btn-lg join-button" onclick="">Submit</button>
-                </div>
-            </div>
-        </div>
+        </form>
+
         <div class="col-sm-4">
             <img src="../assets/undraw_team_spirit.svg" class="undraw">
         </div>   

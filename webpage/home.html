@@ -30,6 +30,7 @@
 
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Kalam&display=swap" rel="stylesheet">
 
     <!-- Font Awesome import -->
     <script src="https://kit.fontawesome.com/aa8b05d292.js" crossorigin="anonymous"></script>
@@ -53,7 +54,7 @@
         </div>
         <div class="row buttons">
             <div class="col-sm-offset-6">
-                <button type="button" class="btn btn-lg banner-button">Watch Video</button>
+                <button type="button" class="btn btn-lg banner-button" onclick="window.open('https://www.youtube.com/watch?v=GvFQjIVU83Y&feature=youtu.be','_blank')" >Watch Video</button>
                 <button type="button" class="btn btn-lg banner-button" onclick="navigateToHome()">Learn More</button>
             </div>
         </div>
@@ -67,5 +68,10 @@
 <script>
     function navigateToHome() {
         location.href = "html-pages/about.html"
+    }
+
+    function navigateToVideo() {
+        location.href = url("")
+        
     }
 </script>
